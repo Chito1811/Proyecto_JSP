@@ -1,0 +1,99 @@
+@import url("//fonts.googleapis.com/css?family=Merriweather:400,300italic,300,400italic,700|Montserrat:400,700");
+
+
+
+/* Typography setup */
+body {
+    background: linear-gradient(to bottom right, #000000, #96bdec);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: var(--secondary-font);
+}
+
+h1, h2, h3 {
+  margin: .625em 0;
+  text-transform: uppercase;
+}
+
+p { margin: 1em 0; }
+
+
+#nav{
+    backdrop-filter: blur(1px); /* Aplicar desenfoque gaussiano */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom: 2px solid  white;
+}
+
+#signOutBtn{
+    float: right;
+    color: white;
+    margin-right: 5%;
+    font-size: 1.2em;
+}
+#userListNav{
+    float: left;
+    color: white;
+    margin-top: 1.5% !important;
+    margin-left: 5% !important;
+    font-size: 1.2em;
+}
+
+#card {
+  width: 100%;
+  max-width: 28.125em;
+  background-image: linear-gradient(var(--body-color), var(--body-color)), linear-gradient(var(--body-color), var(--body-color));
+  background-size: 100% 25%, 100% 74%;
+  background-position: top left, bottom left;
+  background-repeat: no-repeat;
+  padding: 2.5em;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: .25em;
+  box-shadow: 0 0 .375em rgba(var(--black), .35);
+  z-index: 99;
+}
+
+/* Header */
+.profile {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+img {
+  width: 12.5em;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 0 .625em var(--body-color);
+}
+
+
+
+.contact-button {
+  display: inline-block;
+  padding: 10px 50px;
+  font-family: var(--secondary-font);
+  color: var(--white);
+  text-decoration: none;
+  text-transform: uppercase;
+  background: var(--accent-color);
+  border-radius: 5px;
+  transition: all 350ms ease;
+}
+
+.contact-button:hover {
+  background: var(--accent-active);
+  transform: scale(1.05);
+  color: lightblue;
+}
+article{
+    backdrop-filter: blur(1px); /* Aplicar desenfoque gaussiano */
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 7% !important;
+    margin: auto;
+}

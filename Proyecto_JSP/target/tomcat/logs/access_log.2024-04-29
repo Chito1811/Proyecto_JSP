@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [29/Apr/2024:20:42:52 +0200] "GET /calendar/inicio.jsp HTTP/1.1" 404 989 http-bio-8080-exec-1 21
+0:0:0:0:0:0:0:1 - - [29/Apr/2024:20:42:52 +0200] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [29/Apr/2024:20:43:04 +0200] "GET /calendar/signUp.jsp HTTP/1.1" 200 1255 http-bio-8080-exec-4 35
+0:0:0:0:0:0:0:1 - - [29/Apr/2024:20:43:04 +0200] "GET /calendar/assets/css/signIn.css HTTP/1.1" 200 2234 http-bio-8080-exec-5 9
